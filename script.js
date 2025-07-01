@@ -12,7 +12,7 @@ function updateProgressBar(progressBar, value) {
 }
 
 const allProgressBars = document.querySelectorAll(".progress");
-const values = [20, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+const values = [20, 0,50,0,0,0,0,0,0,0,0,0,0,0,0,0];
 
 allProgressBars.forEach((bar, index) => {
   updateProgressBar(bar, values[index] || 0);
